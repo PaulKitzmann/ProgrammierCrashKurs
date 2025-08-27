@@ -10,5 +10,7 @@ int main(){
 
     printf("c is negative?? Value: %d\n", c);
     printf("last value of c: %d\n", last);
+
+    
     return 0;
 }
