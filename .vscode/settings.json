@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.sql": "oracle-sql",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "float.h": "c"
     }
 }
