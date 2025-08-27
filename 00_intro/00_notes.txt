@@ -1,0 +1,9 @@
+# Create .s file
+gcc -S <file.c>
+
+# Create .exe file
+gcc <file.s> -o <filename>
+
+
+show binary .exe
+Format-Hex <file.exe> | more
