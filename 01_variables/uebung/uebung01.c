@@ -31,7 +31,7 @@ int main(void){
 
 
     char num3 = 'A'; //Als buchstabe und als Zahl
-
+    
 
     float num4 = 1.5;
     
