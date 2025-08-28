@@ -14,7 +14,7 @@ int main(){
                 = 1, wenn die Zahl durch sieben teilbar ist
             
             1.3
-            Zur Kontrolle: Gib die Variable aus 2.3 aus.
+            Zur Kontrolle: Gib die Variable aus 1.2 aus.
                 
     */
 
