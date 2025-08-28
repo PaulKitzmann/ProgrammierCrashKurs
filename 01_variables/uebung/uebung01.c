@@ -49,5 +49,9 @@ int main(void){
     short num7 = 0b110110110; //Was ist das?
 
     
+
+    int num8 = 0xfade;
+
+
     return 0;
 }
