@@ -2,7 +2,17 @@
 
 
 int main(){
-    
+    /*
+        Syntax For-Schleife:
+        
+        for (Initialisierung; Bedingung; Aktualisierung) {
+            // Tu etwas, solange Bedingung wahr ist
+        }
+
+
+    */
+
+    //Beispiele
     for(int i=0; i<100; i++){
         printf("%d\n", i);
     }
@@ -27,10 +37,12 @@ int main(){
         printf("\n");
     }
 
-    return 0;    for(int y = 0; y < 10; y++){
+    for(int y = 0; y < 10; y++){
         for(int x = 0; x < 20; x++){
             printf("%4d", 0);
         }
         printf("\n");
     }
+
+    return 0;
 }
