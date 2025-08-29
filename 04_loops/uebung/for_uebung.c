@@ -55,16 +55,4 @@ int main(){
                 XXXXXXXXXXXXXXXXXX
                XXXXXXXXXXXXXXXXXXXX
     */
-
-    int height = 20;
-    for(int i = 1; i<= height; i++){
-        int leftSpace = (height - i);
-        for(int j = 0; j < leftSpace; j++){
-            printf(" ");
-        }
-        for(int k = 0; k < i; k++){
-            printf("XX");
-        }
-        printf("\n");
-    }
 }

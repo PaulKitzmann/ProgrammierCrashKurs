@@ -7,6 +7,7 @@ int main(){
         
         for (Initialisierung; Bedingung; Aktualisierung) {
             // Tu etwas, solange Bedingung wahr ist
+            // Bedingung ist wahr, solange != 0
         }
 
 
