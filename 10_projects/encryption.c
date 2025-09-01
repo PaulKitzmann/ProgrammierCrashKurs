@@ -55,7 +55,7 @@ int main() {
     if (d < 0) d += phi;  // normalize private key
 
     char text[200];
-    printf("Enter Message:\n");
+    printf("Enter Message: ");
     fgets(text, sizeof(text), stdin);
 
     int len = 0;
@@ -70,7 +70,7 @@ int main() {
     }
     printf("\n");
 
-    printf("Encrypted Msg: (numbers)\n");
+    printf("Encrypted Msg (numbers):\n");
     for (int i = 0; i < len; i++) {
         printf("%lld ", cipher[i]);
     }
@@ -79,7 +79,7 @@ int main() {
     char decrypted[200];
     decrypt(decrypted, cipher, len, N, d);
 
-    printf("Decrypted Message: %s\n", decrypted);
+    printf("Decrypted Message:\n %s\n", decrypted);
 
     return 0;
 }
