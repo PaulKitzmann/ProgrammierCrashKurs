@@ -20,8 +20,8 @@ long long modexp(long long base, long long exp, long long mod) {
     base %= mod;
     while (exp > 0) {
         if (exp & 1)
-            result = (result * base) % mod;
-        base = (base * base) % mod;
+            result = ( (__int128)result * base % mod );
+        base = ( (__int128)base * base % mod );
         exp >>= 1;
     }
     return result;
@@ -41,11 +41,11 @@ void decrypt(char *out, long long *cipher, int length, long long N, long long d)
 }
 
 int main() {
-    unsigned int prime1 = 11;
-    unsigned int prime2 = 13;
+    long long prime1 = 88607ll;
+    long long prime2 = 88609ll;
 
     long long N = prime1 * prime2; // modulus
-    long long e = 23;              // public exponent
+    long long e = 88919;           // public exponent
 
     long long phi = (prime1 - 1) * (prime2 - 1);
     long long x, y;
