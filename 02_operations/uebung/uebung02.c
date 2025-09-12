@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 
 int main(){
     /*
@@ -18,6 +18,12 @@ int main(){
                 
     */
 
+    int * pointer = malloc(sizeof(int));
+
+    
+    printf("Zahl: %d\n", *(pointer));
+
+    printf("%d\n", (*pointer % 7) == 0);
 
     return 0;
 }

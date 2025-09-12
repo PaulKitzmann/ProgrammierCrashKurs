@@ -30,9 +30,6 @@ int main(){
     printf("Counted to %lld\n", limit);
     return 0;
 
-
-
-    Exit with Ctrl + C
     while(1){
         printf("Code is running\n");
     }

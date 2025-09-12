@@ -26,32 +26,39 @@ int main(void){
     // Gib folgende Variablen in der Konsole aus
     int num1 = 98734957;
 
+    printf("%d\n", num1);
+
 
     unsigned short num2 = 2025;
+    printf("%d\n", num2);
 
 
     char num3 = 'A'; //Als buchstabe und als Zahl
+    printf("%c, %d\n", num3, num3);
     
 
     float num4 = 1.5;
-    
+    printf("%f\n", num4);
 
     float num5 = sqrt(2);
     double num6 = sqrt(2);
     //Gib num5 & num6 mit einem "normalem" printf-Statement aus
+    printf("%f\n%lf\n", num5, num6);
 
 
     // Nun gib num5 & num6 mit 15 Nachkommastellen an
     // Wie viele Nachkommastellen stimmen jeweils?
+    printf("%.15f\n%.15lf\n", num5, num6);
 
 
     
     short num7 = 0b110110110; //Was ist das?
+    printf("%d\n", num7);
 
     
 
     int num8 = 0xfade;
-
+    printf("%d, %x\n", num8, num8);
 
     return 0;
 }

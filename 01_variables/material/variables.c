@@ -14,7 +14,7 @@ int main(){
     char varChar3 = 150;
     unsigned char varChar4 = 150;
 
-    // printf("Char: %c, Zahl: %d\n", varChar1, varChar1);
+    printf("Char: %c, Zahl: %d\n", varChar1, varChar1);
     // printf("Char: %c, Zahl: %d\n", varChar2, varChar2);
 
     //printf("Char: %c, Zahl: %d\n", varChar3, varChar3);

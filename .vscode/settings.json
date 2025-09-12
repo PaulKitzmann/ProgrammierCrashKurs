@@ -4,6 +4,7 @@
         "stdio.h": "c",
         "float.h": "c",
         "math.h": "c",
-        "cmath": "c"
+        "cmath": "c",
+        "casino.C": "cpp"
     }
 }
